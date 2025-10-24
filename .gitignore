@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+runs/
+
+# Virtual environments
+.venv
+
+# dataset
+train/*
+test/*
+
+# other
+sample_submission.csv
+answer.csv
