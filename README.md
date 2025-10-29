@@ -28,6 +28,7 @@ Set up the environment (please install `uv` first):
    - Other dependencies as listed in `requirements.txt`
 
 ## Usage
+**Note: please put dataset `train` and `test` under the `src` directory**
 **Note: please run the scripts in the `src` directory**
 ```bash
 cd src
