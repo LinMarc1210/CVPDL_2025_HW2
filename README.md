@@ -30,9 +30,9 @@ Set up the environment (please install `uv` first):
 ## Usage
 - **Note: please put dataset `train` and `test` under the `src` directory**
 - **Note: please run the scripts in the `src` directory**
-```bash
-cd src
-```
+  ```bash
+  cd src
+  ```
 
 1. **Data Preparation**:
    - Run the data preparation script:
