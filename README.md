@@ -28,20 +28,25 @@ Set up the environment (please install `uv` first):
    - Other dependencies as listed in `requirements.txt`
 
 ## Usage
+**Note: please run the scripts in the `src` directory**
+```bash
+cd src
+```
+
 1. **Data Preparation**:
    - Run the data preparation script:
      ```bash
-     python src/yolo_dataset.py
+     python yolo_dataset.py
      ```
    - (Optional) Run the tuning script:
      ```bash
-     python src/yolo_tune.py
+     python yolo_tune.py
      ```
 
 2. **Training**:
    - Run the training script:
      ```bash
-     python src/yolo_train.py
+     python yolo_train.py
      ```
    - This will train the model, perform validation, and save checkpoints in `runs/detect/<model_name>` directory.
    - It will also save train and validation loss in `runs/detect/<model_name>/results.csv` directory.
@@ -49,7 +54,7 @@ Set up the environment (please install `uv` first):
 3. **Inference**:
    - Use the inference script to run predictions on new images:
      ```bash
-     python src/yolo_inference.py
+     python yolo_inference.py
      ```
 
 ## Contributing
