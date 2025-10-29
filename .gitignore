@@ -5,17 +5,18 @@ build/
 dist/
 wheels/
 *.egg-info
-runs/
+src/runs/
 
 # Virtual environments
 .venv
 
 # dataset
-train/*
-test/*
-drone_yolo_dataset/*
+src/train/*
+src/test/*
+src/drone_yolo_dataset/*
 
 # other
-sample_submission.csv
-answer.csv
-*.pt
+src/sample_submission.csv
+src/answer.csv
+src/*.pt
+
