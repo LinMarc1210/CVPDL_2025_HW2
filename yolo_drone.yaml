@@ -1,0 +1,6 @@
+train: ./drone_yolo_dataset/yolo_train/images
+val: ./drone_yolo_dataset/yolo_val/images
+
+nc: 4
+
+names: ['car', 'hov', 'person', 'motorcycle']
