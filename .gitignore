@@ -13,7 +13,9 @@ runs/
 # dataset
 train/*
 test/*
+drone_yolo_dataset/*
 
 # other
 sample_submission.csv
 answer.csv
+*.pt

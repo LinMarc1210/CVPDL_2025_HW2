@@ -11,6 +11,7 @@ dependencies = [
   "tensorboard>=2.20.0",
   "pandas>=2.3.3",
   "ultralytics==8.3.220",
+  "tqdm>=4.67.1",
 ]
 
 [tool.uv.sources]
